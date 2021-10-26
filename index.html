@@ -1,0 +1,40 @@
+<!--
+File: index.html
+GUI Assignment: Javascript Multiplication Table
+Author: Al Sebastian Ferreras
+Date: 10/22/21
+Description: Take user input and make a multiplication table 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Multiplication Table</title>
+        <link rel="stylesheet" href="./css/stylesheet.css">
+    </head>
+    <body>
+        <fieldset>
+            <legend>Enter number range between -50 and 50</legend>
+            <form>
+                <label for="miny">Minimum Row</label>
+                <input type="number" id="miny" name="miny" value="1">
+                <label for="maxy">Maximum Row</label>
+                <input type="number" id="maxy" name="maxy" value="10">
+                <label for="minx">Minimum Column</label>
+                <input type="number" id="minx" name="minx" value="1">
+                <label for="maxx">Maximum Column</label>
+                <input type="number" id="maxx" name="maxx" value="10">
+                <input id='button' type="submit" value="generate" onclick="generateTable(); return false;">
+                <!--Where the error message will go-->
+                <p id='error'></p>
+            </form>
+        </fieldset>
+        
+        <!--Where the table will go-->
+        <div id="tableZone">
+        </div>
+        
+        <script src="./js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+fieldset{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+legend{
+    width: 260px;
+}
+
+label{
+    margin: 5px 10px 5px 20px;
+    display: inline-block;
+}
+
+input{
+    margin: 5px 10px 10px 20px;
+    display: inline-block;
+}
+
+#button{
+    margin: 5px 0px 0px 95px;
+}
+
+#tableZone{
+   max-width: 600px;
+   min-width: 200px;
+   display: inline-block;
+}
+
+.firstCol{
+    background-color: black;
+    color: white;
+    position: sticky;
+    width: 10px;
+    left: 0;
+    text-align: right;
+}
+
+.firstRow{
+    background-color: black;
+    color: white;
+    position: sticky;
+    width: 10px;
+    top: 0;
+    text-align: right;
+}
+
+.mult:nth-child(even){
+    background: #8c8c89;
+}
+
+td{
+    border: 1px solid black;
+    padding: 2px;
+    text-align: right;
+    min-width: 20px;
+}
+
+.blankTD{
+    background-color: white;
+    border: 0px
+}
